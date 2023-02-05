@@ -1,0 +1,43 @@
+#tydiv {
+    text-align: center;
+}
+
+#message {
+    font-size: 25px;
+    text-align: center;
+}
+
+#email {
+    font-size: 25px;
+}
+
+#mobile {
+    font-size: 25px;
+}
+
+#img {
+    margin-top: 2rem;
+    width: 400px;
+}
+
+@media only screen and (max-width:425px) {
+
+    #message {
+        font-size: 20px;
+    }
+
+    #email {
+        font-size: 20px;
+
+    }
+
+    #mobile {
+        font-size: 20px;
+
+    }
+
+    #img {
+        margin-top: 20px;
+        width: 300px;
+    }
+}
